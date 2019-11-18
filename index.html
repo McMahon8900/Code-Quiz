@@ -7,13 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style.css" rel="stylesheet">
     <script defer src="script.js"></script>
-    <title>Disney Quiz</title>
+    <title>Code Quiz</title>
 </head>
 
 <body>
     <div class="container">
         <div id="question-container">
             <div id="question">Question</div>
+            <div id="timer">Timer:</div>
             <div id="answer-buttons" class="btn-grid">
                 <button class="btn">Answer 1</button>
                 <button class="btn">Answer 2</button>
@@ -21,11 +22,13 @@
                 <button class="btn">Answer 4</button>
             </div>
         </div>
-        <div class="controls">
-            <button id="start-btn" class="start-btn btn">Start</button>
+        <div class="controls" class="controls-grid">
+            <button id="highscores-btn" class="highscores-btn btn">High Scores</button>
+            <button id="start-btn" class="start-btn btn">START</button>
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="questions.js"></script>
 </body>
 
 </html>
