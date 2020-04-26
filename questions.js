@@ -1,35 +1,35 @@
-let question = document.getElementById("questions");
+let myQuestion = document.getElementById("questions");
 
 
 
 let questions = [{
     //First Question
-    title: "Values can be passed into functions and used within then function. The name of the value is called a __________. The actual value itself is called an argument.",
-    choices: ["object", "parameter", "expression", "return"],
-    answer: "parameter"
+    title: "Beofore Mickey Mouse, Walt Disney made a different character. Who was it?",
+    choices: ["Snow White", "Oswald the lucky rabbit", "Mickey was his first creation", "Pete"],
+    answer: "Oswald the lucky rabbit"
     },
     {
     //Second Question
-    title: "Which compay developed JavaScript?",
-    choices: ["Lime Wire", "Unknown", "Netscape", "Another Unknown"],
-    answer: "Netscape"
+    title: "How many daughters does King Triton have?",
+    choices: ["7", "8", "4", "12"],
+    answer: "7"
     },
     {
     //Third Question
-    title: "_______ keyword refers to the object from where it was called.",
-    choices: ["document", "this", "element", "var"],
-    answer: "this"
+    title: "How Was Pegasus created in “Hercules”?",
+    choices: ["he was formed out of clouds", "created by Hades", "formed from a storm", "made from Zeus' thigh"],
+    answer: "he was formed out of clouds"
     },
     {
     //Fourth Question
-    title: "unknown question 4",
-    choices: ["1", "2", "3", "4"],
-    answer: "4"
+    title: "What was Disney's first animated film",
+    choices: ["Sleeping Beauty", "Snow White", "Pinocchio", "Fantasia"],
+    answer: "Snow White"
     },
     {
     //Fifth Question
-    title: "unknown question 5",
-    choices: ["1", "2", "3", "4"],
-    answer: "2"
+    title: "What Was the Name of Simba’s Mom?",
+    choices: ["Nala", "Shenzi", "Kiara", "Sarabi"],
+    answer: "Sarabi"
     }
 ];
