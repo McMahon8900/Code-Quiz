@@ -6,11 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="style.css" rel="stylesheet">
-    <script defer src="script.js"></script>
-    <title>Code Quiz</title>
+    <title>Disney Quiz</title>
 </head>
 
 <body>
+
+    <nav> 
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mr-auto">
+                        <a class="nav-item nav-link active" href="highScore.html">Leaderboard</a>
+                    </div>
+                </div>
+                
+                <!-- score tally printed here-->
+                <div class="countdownBox">
+                    <p>Time Left: <span id="counterDisplay"></span></p>
+                </div>
+            </div>
+        </nav> 
+    </nav>
+
     <div class="container">
         <div id="question-container">
             <div id="question">Question: </div>
@@ -18,7 +40,7 @@
             <div id="answer-buttons" class="btn-grid">
                 <button class="btn" class="answer1">Answer 1</button>
                 <button class="btn" class="answer2">Answer 2</button>
-                <button class="btn" class="answer3"> Answer 3</button>
+                <button class="btn" class="answer3">Answer 3</button>
                 <button class="btn" class="answer4">Answer 4</button>
             </div>
         </div>
